@@ -1,0 +1,8 @@
+
+.cardstyle{
+
+    width:130px;
+    height:150px;
+    border:2px solid bisque;
+    display:inline-flex;
+}
