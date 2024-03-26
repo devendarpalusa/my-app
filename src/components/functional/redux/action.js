@@ -11,17 +11,17 @@ export function Incrementfunctionaction(){
     //     }
     //         return action
         // }
-        export function BuyChacolateaction(){
+        export function ReturnChacolateaction(noofchacolates){
             return{
                 type:"RETURN-CHACOLATES",
-                payload:10
+                payload:noofchacolates
             }
         
             }
-            export function ReturnChacolateaction(){
+            export function BuyChacolateaction(noofchacolates){
                 const action={
                     type:"BUY-CHACOLATES",
-                    payload:1
+                    payload:noofchacolates
                 }
                     return action
                 }

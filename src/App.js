@@ -40,7 +40,8 @@
 // import NavigationStack from "./components/functional/navigation/navigation";
 // import AddCircle from "./components/functional/addcircle/addcircle";
 import { useDispatch, useSelector } from "react-redux";
-import { BuyChacolateaction } from "./components/functional/redux/action";
+import { BuyChacolateaction, ReturnChacolateaction } from "./components/functional/redux/action";
+import reduxStore from "./components/functional/redux/reduxstore";
 import NavigationStack from "./components/functional/navigation/navigation";
 import { Axios } from "axios";
 import { ButtonGroup } from "react-bootstrap";
@@ -51,12 +52,25 @@ import UseEffectExample4 from "./components/functional/useeffect/useffectCard";
 import ImageComponent from "./components/functional/image/image-component";
 import Orderlist from "./components/functional/list/orderdlist";
 import UnorderList from "./components/functional/list/unorderlist";
+import ListComponent from "./components/functional/list/list";
 function App() {
   // const{availableChacolate,totalChacolates,Counter}=useSelector(state=>state)
   // const dispatch=useDispatch()
   // const BuyChacolate=()=>{
   //   dispatch(BuyChacolateaction(3))
   // }
+  
+  
+//  const {totalChacolates,availableChacolate}=useSelector(state=>state)
+//  console.log(reduxStore,"reduxStore")
+// const dispatch=useDispatch()
+  
+// const BuyChacolate=()=>{
+//   dispatch(BuyChacolateaction(3))
+// }
+// const ReturnChacolate=()=>{
+//   dispatch(ReturnChacolateaction(3))
+// }
 
  return(
     <div> 
@@ -78,10 +92,14 @@ function App() {
 {/* <Dnaspinner/> */}
 <ButtonComponent/>
 <ImageComponent/>
-<Orderlist />
+<Orderlist/>
 <UnorderList/>
+ {/* <h1>availableChacolate{totalChacolates}</h1>
+<h1>available{totalChacolates}</h1>
 
-  </div>
+<button onClick={BuyChacolate}>buyChacolate</button>
+ <button onClick={ReturnChacolate}>ReturnChacolate</button> */}
+  </div> 
   );
   
 }
