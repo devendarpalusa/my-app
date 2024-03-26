@@ -39,47 +39,25 @@
 // import Routingnavbar from "./components/functional/routeing/navbar";
 // import NavigationStack from "./components/functional/navigation/navigation";
 // import AddCircle from "./components/functional/addcircle/addcircle";
-import { useDispatch, useSelector } from "react-redux";
-import { BuyChacolateaction } from "./components/functional/redux/action";
-import NavigationStack from "./components/functional/navigation/navigation";
-import { Axios } from "axios";
-import { ButtonGroup } from "react-bootstrap";
-import ButtonComponent from "./components/functional/button/button-componemt";
-import Dnaspinner from "./components/functional/spinner/dna";
-import UseReducer from "./components/functional/usereducer/usereducer";
-import UseEffectExample4 from "./components/functional/useeffect/useffectCard";
-import ImageComponent from "./components/functional/image/image-component";
-import Orderlist from "./components/functional/list/orderdlist";
-import UnorderList from "./components/functional/list/unorderlist";
+// import { useDispatch, useSelector } from "react-redux";
+// import { BuyChacolateaction } from "./components/functional/redux/action";
+// import NavigationStack from "./components/functional/navigation/navigation";
+// import { Axios } from "axios";
+// import { ButtonGroup } from "react-bootstrap";
+// import ButtonComponent from "./components/functional/button/button-componemt";
+// import Dnaspinner from "./components/functional/spinner/dna";
+// import UseReducer from "./components/functional/usereducer/usereducer";
+// import UseEffectExample4 from "./components/functional/useeffect/useffectCard";
+// import ImageComponent from "./components/functional/image/image-component";
+// import Orderlist from "./components/functional/list/orderdlist";
+// import UnorderList from "./components/functional/list/unorderlist";
+import Jsxfunctional from "./components/functional/jsx.js/Jsxfunctional";
 function App() {
-  // const{availableChacolate,totalChacolates,Counter}=useSelector(state=>state)
-  // const dispatch=useDispatch()
-  // const BuyChacolate=()=>{
-  //   dispatch(BuyChacolateaction(3))
-  // }
+  
 
  return(
     <div> 
-{/* <UnControlledComponent/> */}
-{/* <ControlledComponent/> */}
-{/* <UseeffectExample/> */}
-{/* <UseEffectExample2/> */}
- {/* <UseEffectExample/>  */}
- {/* <NavigationStack/> */}
-{/* <UseEffectExample4/> */}
-{/* <ControlledComponent/> */}
-{/* <AddCircle/> */}
- {/* <NavigationStack/> */}
-{/* /> */}
-{/* <UseEffectExample4/> */}
-{/* <h1>{availableChacolate}</h1>
-<button onClick={BuyChacolate}>button</button> */} 
-{/* <NavigationStack/>  */}
-{/* <Dnaspinner/> */}
-<ButtonComponent/>
-<ImageComponent/>
-<Orderlist />
-<UnorderList/>
+<Jsxfunctional/>
 
   </div>
   );
